@@ -25,6 +25,7 @@
   
 body {
   background-image: linear-gradient(to right, var(--cor2), var(--cor4));
+  background-size: 100vw;
   
 }
 
@@ -36,8 +37,8 @@ padding-top: 5px;
 nav {
   background-color: var(--cor8);
   text-align: center;
-  min-width: 400px;
-  max-width: 750px;
+  min-width: 350px;
+  max-width: 600px;
   margin: auto;
   padding: 20px;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.459);
@@ -100,8 +101,8 @@ ol, ul {
 
 main {
   background-color: var(--cor8);
-  min-width: 450px;
-  max-width: 750px;
+  min-width: 350px;
+  max-width: 600px;
   margin: auto;
   padding: 20px;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.438);
@@ -145,10 +146,11 @@ footer > p > a {
   color: var(--cor8);
 }
 
-@media only screen and (max-width: 500px){
- 
+/*@media only screen and (max-width: 500px){
+  body{ background-size: 100vw;
+  }
  
   footer{
-    width: 96vw;
+    width: 98vw;
 }
 }
