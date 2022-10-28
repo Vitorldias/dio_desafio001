@@ -30,15 +30,11 @@ body {
 }
 
 header {
-padding-top: 5px;
-
-}
-
-nav {
   background-color: var(--cor8);
+  padding-top: 5px;
   text-align: center;
-  min-width: 350px;
-  max-width: 600px;
+  min-width: 600px;
+  max-width: 700px;
   margin: auto;
   padding: 20px;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.459);
@@ -47,7 +43,7 @@ nav {
   margin-bottom: 10px;
 }
 
-nav > a{
+header > a{
   color: #012030;
   text-decoration: none;
   padding: 5px;
@@ -56,7 +52,7 @@ nav > a{
   border-radius: 5px;
 }
 
-nav > a:hover{
+header > a:hover{
   background-color: var(--cor6);
   font-weight: bold;
   color: var(--cor8);
@@ -101,8 +97,8 @@ ol, ul {
 
 main {
   background-color: var(--cor8);
-  min-width: 350px;
-  max-width: 600px;
+  min-width: 600px;
+  max-width: 700px;
   margin: auto;
   padding: 20px;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.438);
@@ -146,11 +142,47 @@ footer > p > a {
   color: var(--cor8);
 }
 
-/*@media only screen and (max-width: 500px){
-  body{ background-size: 100vw;
+
+@media only screen and (max-width: 700px){
+  header{ 
+    min-width: 400px;
+    max-width: 600px;
   }
- 
-  footer{
-    width: 98vw;
+
+  header > h1 {
+    font-size: 2em;
+  }
+
+  main {
+    min-width: 400px;
+    max-width: 600px;
+  }
+
 }
+
+@media only screen and (max-width: 550px){
+  
+  header{ 
+    min-width: 400px;
+  }
+
+  header > h1 {
+    font-size: 2em;
+  }
+
+  main {
+    min-width: 300px;
+    max-width: 400px;
+  }
+
+  header > a{
+  color: #012030;
+  text-decoration: none;
+  padding: 5px;
+  font-size: small;
+  text-align: center;
+  font-family: var(--fonte-destaque2);
+  
+}
+
 }
