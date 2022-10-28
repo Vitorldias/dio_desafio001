@@ -31,16 +31,14 @@ body {
 
 header {
   background-color: var(--cor8);
-  padding-top: 5px;
   text-align: center;
   max-width: 700px;
-  margin: auto;
-  padding: 20px;
+  min-height: 110px;
+  margin:auto;
+  padding: 10px 20px 10px 20px;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.459);
-  margin-bottom: 30px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  justify-content: center;
+  border-radius: 0px 0px 10px 10px;
+  
   
 }
 
@@ -98,16 +96,13 @@ ol, ul {
 
 main {
   background-color: var(--cor8);
-  min-width: 600px;
   max-width: 700px;
   margin: auto;
   padding: 20px;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.438);
+  margin-top: 15px;
   margin-bottom: 30px;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
-
 }
 
 div.img{
@@ -146,7 +141,7 @@ footer > p > a {
 }
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 750px){
   header{ 
     min-width: 400px;
     max-width: 600px;
@@ -185,6 +180,7 @@ footer > p > a {
   font-size: small;
   text-align: center;
   font-family: var(--fonte-destaque2);
+  display: block ;
   
 }
 
@@ -210,6 +206,7 @@ footer > p > a {
   font-size: small;
   text-align: center;
   font-family: var(--fonte-destaque2);
+  display: block ;
 
 }
 }
