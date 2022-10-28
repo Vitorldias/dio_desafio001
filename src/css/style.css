@@ -152,7 +152,7 @@ p.next{
 }
 
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 850px){
   header{ 
     min-width: 400px;
     max-width: 600px;
@@ -169,7 +169,7 @@ p.next{
 
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
   
   header{ 
     max-width: 350px;
@@ -196,7 +196,7 @@ p.next{
   
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 650px){
   
   header{ 
     min-width: 200px;
