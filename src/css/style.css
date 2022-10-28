@@ -160,10 +160,10 @@ footer > p > a {
 
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 600px){
   
   header{ 
-    min-width: 400px;
+    max-width: 350px;
   }
 
   header > h1 {
@@ -185,4 +185,29 @@ footer > p > a {
   
 }
 
+@media only screen and (max-width: 550px){
+  
+  header{ 
+    max-width: 300px;
+  }
+
+  header > h1 {
+    font-size: 2em;
+  }
+
+  main {
+    min-width: 300px;
+    max-width: 400px;
+  }
+
+  header > a{
+  color: #012030;
+  text-decoration: none;
+  padding: 5px;
+  font-size: small;
+  text-align: center;
+  font-family: var(--fonte-destaque2);
+
+}
+}
 }
