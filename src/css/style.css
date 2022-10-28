@@ -161,7 +161,8 @@ footer > p > a {
 @media only screen and (max-width: 600px){
   
   header{ 
-    max-width: 350px;
+    max-width: 250px;
+    max-height: 250px;
   }
 
   header > h1 {
@@ -187,7 +188,7 @@ footer > p > a {
 @media only screen and (max-width: 550px){
   
   header{ 
-    max-width: 300px;
+    min-width: 200px;
   }
 
   header > h1 {
