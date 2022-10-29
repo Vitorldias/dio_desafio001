@@ -38,8 +38,7 @@ header {
   padding: 10px 20px 10px 20px;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.459);
   border-radius: 0px 0px 10px 10px;
-  
-  
+    
 }
 
 header > a{
@@ -108,8 +107,7 @@ main {
 
 div.img{
   text-align: center;
-  
-  
+   
  }
 
 a > img {
@@ -117,27 +115,20 @@ a > img {
   background-color: #ff4857c2;
   width: 60px;
   border-radius: 50%;
-  box-shadow: 5px 5px 10px 0px hsla(355, 100%, 64%, 0.637);
+  
 }
   
 a > img:hover{
   background-color: var(--cor6);
-  box-shadow: 5px 5px 10px 0px var(--cor6);
+  box-shadow: 3px 3px 10px 3px var(--cor6);
   transition-duration: 0.3s;
 }
-  /*display: block ;
-  margin: auto;
-  text-align: center;
-}*/
 
 footer {
   background-color: black;
   color: var(--cor8);
   text-align: center;
-  width: 100vw;
-  
-  
-  
+  width: 100vw; 
 }
 
 footer > p {
@@ -161,10 +152,8 @@ transition-duration: 0.3s;
 p.next{
   text-align: center;
   padding: 0px;
-  padding-top: -10px;
 
 }
-
 
 @media only screen and (max-width: 850px){
   header{ 
