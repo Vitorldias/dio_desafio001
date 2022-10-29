@@ -119,7 +119,12 @@ a > img {
   border-radius: 50%;
   box-shadow: 5px 5px 10px 0px hsla(355, 100%, 64%, 0.637);
 }
-   
+  
+a > img:hover{
+  background-color: var(--cor6);
+  box-shadow: 5px 5px 10px 0px var(--cor6);
+  transition-duration: 0.3s;
+}
   /*display: block ;
   margin: auto;
   text-align: center;
@@ -143,6 +148,14 @@ footer > p {
 footer > p > a {
   text-decoration: none;
   color: var(--cor8);
+}
+
+footer > p > a:hover {
+background-color: #FF4858;
+box-shadow: 2px 2px 10px 0px hsla(355, 100%, 64%, 0.637);
+color: black;
+border-radius: 5px;
+transition-duration: 0.3s;
 }
 
 p.next{
